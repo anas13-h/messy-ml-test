@@ -1,0 +1,10 @@
+training:
+  epochs: 100
+  batch_size: 32
+  
+inference:
+  # Missing required fields
+  port: 8000
+
+# No CUDA version specified
+# No framework specified
