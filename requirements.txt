@@ -1,0 +1,9 @@
+torch
+tensorflow  # Conflict! Both PyTorch and TF
+opencv-python
+numpy
+pandas
+scikit-learn
+fastapi
+uvicorn
+# Missing versions, will cause conflicts
