@@ -9,6 +9,9 @@ FROM ${BASE_IMAGE}
 
 # 2. System Setup
 # Ensure Python output is sent directly to terminal (logs help debugging)
+# 2. System Setup
+
+
 ENV PYTHONUNBUFFERED=1 
 
 # Set the working directory inside the container

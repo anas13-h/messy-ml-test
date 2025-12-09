@@ -1,9 +1,13 @@
-torch
-tensorflow  # Conflict! Both PyTorch and TF
-opencv-python
-numpy
+# --- DO NOT INSTALL THESE (Included in Base Image) ---
+# torch            <-- ALREADY INSTALLED! Removing this saves 2GB download.
+# numpy            <-- ALREADY INSTALLED! Use the system version.
+
+# tensorflow       <-- WARNING: Don't mix TF and PyTorch unless necessary. It adds 500MB+.
+
 pandas
 scikit-learn
 fastapi
 uvicorn
-# Missing versions, will cause conflicts
+
+# --- WARNING: OpenCV requires system dependencies ---
+#opencv-python
